@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-import { NewFeatures, StartSteps, TitleText, TypingText } from '../components';
+import { StartSteps, TitleText, TypingText } from '../components';
 
 import { startingFeatures } from '../constants';
 
@@ -22,10 +22,9 @@ const GetStarted = () => (
       >
         <img src="/get-started.png" alt="Get-Started" className="w-[90%] h-[90%] object-content" />
       </motion.div>
-
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className={`${styles.flexCenter} flex-[0.75] justify-center flex flex-col`}
+        className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| How MetaDroid Works " />
         <TitleText title={<> Get Started with just a few clicks </>} />
