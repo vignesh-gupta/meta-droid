@@ -31,16 +31,22 @@ const World = () => (
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
 
         {/* Here We are displaying chararcters on the map */}
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
-          <img src="/people-01.png" alt="people" className="w-full h-full" />
-        </div>
         <div className="absolute top-[32%] left-[62%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="/people-02.png" alt="people" className="w-full h-full" />
         </div>
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute sm:top-10 bottom-40 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img src="/people-03.png" alt="people" className="w-full h-full" />
         </div>
+        <div className="hidden lg:block absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+          <img src="/people-04.png" alt="people" className="w-full h-full" />
+        </div>
 
+        <div className="hidden lg:block absolute bottom-[20%] left-[15%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+          <img src="/people-05.png" alt="people" className="w-full h-full" />
+        </div>
+        <div className="absolute top-0 right-[22%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+          <img src="/people-06.png" alt="people" className="w-full h-full" />
+        </div>
         {/* Character on Map ends */}
 
       </motion.div>
