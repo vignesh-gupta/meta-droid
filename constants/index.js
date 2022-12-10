@@ -50,7 +50,7 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'The launch of the Metaverse and be happy :)',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
